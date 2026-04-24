@@ -23,10 +23,10 @@ const Header: React.FC = () => {
 
         <nav className="header-nav">
           <Link
-            to="/"
+            to="/admin"
             className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
           >
-            Events
+            Admin
           </Link>
 
           <SignedOut>
